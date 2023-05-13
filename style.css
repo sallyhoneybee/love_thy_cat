@@ -78,6 +78,8 @@ h1 {
   z-index: 1;
 }
 
+/* modals */
+
 .modal, .modal_gameover {
   position: absolute;
   top: 0;
@@ -91,6 +93,7 @@ h1 {
   align-items: center;
   gap: 20px;
   background-color: pink;
+  margin: 0 auto;
 }
 
 .hidden {
@@ -105,11 +108,17 @@ h1 {
   font-size: 5rem;
 }
 
+.title, .description {
+  text-align: center;
+  margin: 0 20px;
+}
+
 .start, .play_again {
   height: 50px;
   width: 200px;
 }
 
+/* media queries */
 
 @media screen and (max-width: 500px) {
   .board {
@@ -122,6 +131,10 @@ h1 {
 
   .cursor {
     width: 50px;
+  }
+
+  .modal img {
+    width: 100px;
   }
 }
 
