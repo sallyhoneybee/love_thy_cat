@@ -35,7 +35,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 30px;
+  gap: 30px ;
 }
 
 .cat {
@@ -44,10 +44,14 @@ h1 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cat .hungry_cat {
-  width: 100%;
+  width: 95%;
+
 }
 
 .cursor {
