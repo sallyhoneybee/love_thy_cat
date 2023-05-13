@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="modal">
+      <h1 class="title">Love Thy Cats</h1>
+      <p class="description">
+        Its 2023, we can no longer be whacking moles, let us start loving cats
+      </p>
+      <h2>Instructions</h2>
+      <img src="./assets/cat-hungry.png" alt="" />
+      <p>Cats with googly eyes need some love!</p>
+      <button class="start">Start</button>
+    </section>
+
+    <section class="modal_gameover hidden">
+      <h1 class="title">Game Over</h1>
+      <h1 class="score">SCORE: <span>00</span></h1>
+      <button class="play_again">Play Again</button>
+    </section>
+
+    <div class="started">
+      <h1 class="score">SCORE: <span>00</span></h1>
+
+      <div class="board">
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+        <div class="cat"></div>
+      </div>
+
+      <div class="cursor"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
