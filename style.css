@@ -114,4 +114,8 @@ h1 {
   .score {
     margin-bottom: 50px;
   }
+
+  .cursor {
+    width: 50px;
+  }
 }
