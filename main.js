@@ -61,7 +61,7 @@ function Run() {
       timer = setTimeout(() => {
         cat.removeChild(img);
         Run();
-      }, 500);
+      }, 600);
     } else if (score >= 200) {
       timer = setTimeout(() => {
         cat.removeChild(img);
