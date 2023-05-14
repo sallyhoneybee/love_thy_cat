@@ -206,6 +206,7 @@ strong {
   font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 1rem;
+
  }
 
 .start, .play_again {
@@ -223,6 +224,8 @@ button {
   box-shadow: 3px 3px 5px rgba(0,0,0,.7);
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1rem;
 }
 
 button:hover {
